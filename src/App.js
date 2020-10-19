@@ -3,7 +3,8 @@ import React from 'react';
 // import Counter from './components/counter';
 // import ActiveDemo from './components/activeDemo';
 // import Draggable from './components/draggable';
-import TimeoutDemo from './components/timeoutDemo';
+// import TimeoutDemo from './components/timeoutDemo';
+import DebounceDemo from './components/debounceDemo';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Counter/> */}
       {/* <ActiveDemo/> */}
       {/* <Draggable/> */}
-      <TimeoutDemo/>
+      {/* <TimeoutDemo/> */}
+      <DebounceDemo/>
     </div>
   );
 }
