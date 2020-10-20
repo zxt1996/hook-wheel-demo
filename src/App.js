@@ -4,7 +4,8 @@ import React from 'react';
 // import ActiveDemo from './components/activeDemo';
 // import Draggable from './components/draggable';
 // import TimeoutDemo from './components/timeoutDemo';
-import DebounceDemo from './components/debounceDemo';
+// import DebounceDemo from './components/debounceDemo';
+import LocalStorageDemo from './components/localStorageDemo';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <ActiveDemo/> */}
       {/* <Draggable/> */}
       {/* <TimeoutDemo/> */}
-      <DebounceDemo/>
+      {/* <DebounceDemo/> */}
+      <LocalStorageDemo/>
     </div>
   );
 }
