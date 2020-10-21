@@ -5,7 +5,8 @@ import React from 'react';
 // import Draggable from './components/draggable';
 // import TimeoutDemo from './components/timeoutDemo';
 // import DebounceDemo from './components/debounceDemo';
-import LocalStorageDemo from './components/localStorageDemo';
+// import LocalStorageDemo from './components/localStorageDemo';
+import HoverDemo from './components/hoverDemo';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Draggable/> */}
       {/* <TimeoutDemo/> */}
       {/* <DebounceDemo/> */}
-      <LocalStorageDemo/>
+      {/* <LocalStorageDemo/> */}
+      <HoverDemo/>
     </div>
   );
 }
