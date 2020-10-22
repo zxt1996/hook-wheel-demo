@@ -7,7 +7,8 @@ import React from 'react';
 // import DebounceDemo from './components/debounceDemo';
 // import LocalStorageDemo from './components/localStorageDemo';
 // import HoverDemo from './components/hoverDemo';
-import WindowSizeDemo from './components/windowSizeDemo';
+// import WindowSizeDemo from './components/windowSizeDemo';
+import OnClickOutSide from './components/onClickOutSide';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <DebounceDemo/> */}
       {/* <LocalStorageDemo/> */}
       {/* <HoverDemo/> */}
-      <WindowSizeDemo/>
+      {/* <WindowSizeDemo/> */}
+      <OnClickOutSide/>
     </div>
   );
 }
