@@ -8,7 +8,8 @@ import React from 'react';
 // import LocalStorageDemo from './components/localStorageDemo';
 // import HoverDemo from './components/hoverDemo';
 // import WindowSizeDemo from './components/windowSizeDemo';
-import OnClickOutSide from './components/onClickOutSide';
+// import OnClickOutSide from './components/onClickOutSide';
+import PortalDemo from './components/portalDemo';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <LocalStorageDemo/> */}
       {/* <HoverDemo/> */}
       {/* <WindowSizeDemo/> */}
-      <OnClickOutSide/>
+      {/* <OnClickOutSide/> */}
+      <PortalDemo/>
     </div>
   );
 }
