@@ -9,7 +9,8 @@ import React from 'react';
 // import HoverDemo from './components/hoverDemo';
 // import WindowSizeDemo from './components/windowSizeDemo';
 // import OnClickOutSide from './components/onClickOutSide';
-import PortalDemo from './components/portalDemo';
+// import PortalDemo from './components/portalDemo';
+import PreviousDemo from './components/previousDemo';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <HoverDemo/> */}
       {/* <WindowSizeDemo/> */}
       {/* <OnClickOutSide/> */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      <PreviousDemo/>
     </div>
   );
 }
