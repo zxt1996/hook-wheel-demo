@@ -10,7 +10,8 @@ import React from 'react';
 // import WindowSizeDemo from './components/windowSizeDemo';
 // import OnClickOutSide from './components/onClickOutSide';
 // import PortalDemo from './components/portalDemo';
-import PreviousDemo from './components/previousDemo';
+// import PreviousDemo from './components/previousDemo';
+import HistoryDemo from './components/historyDemo';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <WindowSizeDemo/> */}
       {/* <OnClickOutSide/> */}
       {/* <PortalDemo/> */}
-      <PreviousDemo/>
+      {/* <PreviousDemo/> */}
+      <HistoryDemo/>
     </div>
   );
 }
