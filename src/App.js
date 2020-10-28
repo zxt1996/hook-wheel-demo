@@ -11,7 +11,8 @@ import React from 'react';
 // import OnClickOutSide from './components/onClickOutSide';
 // import PortalDemo from './components/portalDemo';
 // import PreviousDemo from './components/previousDemo';
-import HistoryDemo from './components/historyDemo';
+// import HistoryDemo from './components/historyDemo';
+import EventListenerDemo from './components/eventListenerDemo';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <OnClickOutSide/> */}
       {/* <PortalDemo/> */}
       {/* <PreviousDemo/> */}
-      <HistoryDemo/>
+      {/* <HistoryDemo/> */}
+      <EventListenerDemo/>
     </div>
   );
 }

@@ -35,6 +35,8 @@ const reducer = (state, action) => {
                 return state;
             }
 
+            console.log(newPresent)
+
             return {
                 past: [...past, present],
                 present: newPresent,
