@@ -12,7 +12,8 @@ import React from 'react';
 // import PortalDemo from './components/portalDemo';
 // import PreviousDemo from './components/previousDemo';
 // import HistoryDemo from './components/historyDemo';
-import EventListenerDemo from './components/eventListenerDemo';
+// import EventListenerDemo from './components/eventListenerDemo';
+import AsyncDemo from './components/asyncDemo';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <PortalDemo/> */}
       {/* <PreviousDemo/> */}
       {/* <HistoryDemo/> */}
-      <EventListenerDemo/>
+      {/* <EventListenerDemo/> */}
+      <AsyncDemo/>
     </div>
   );
 }
